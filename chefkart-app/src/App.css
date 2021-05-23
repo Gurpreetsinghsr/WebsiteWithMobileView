@@ -1,0 +1,29 @@
+/* The device with borders */
+.smartphone {
+  position: relative;
+  width: 350px;
+  height: 590px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
+
+/* The screen (or content) of the device */
+.smartphone .content {
+  width: 100%;
+  height: 100%;
+  background: blue;
+}
+@media only screen and (max-width: 360px) {
+  .smartphone {
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 550px) {
+    .smartphone {
+      height: 70%;
+    }
+  }
+}
