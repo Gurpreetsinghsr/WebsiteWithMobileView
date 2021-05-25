@@ -1,21 +1,13 @@
-import logo from './logo.svg';
-import {Route, Router} from 'react-router-dom'
-import './App.css';
-import MobileFrame from './Components/MobileViewComponent/MobileFrame';
-import React, { Component } from 'react';
-import NavBar from './Components/MainBody/NavBar/Navbar';
+import MobileFrame from "./components/mobileViewComponent/mobileFrame";
+import { Route, Switch } from "react-router-dom";
+import InsideThePhone from "./components/mobileViewComponent/insideThePhone/insideThePhone";
 
 function App() {
   return (
-    <React.Fragment>
-      <div className="container-fluid">
-      <NavBar></NavBar>   
-     
-      {/* <MobileFrame></MobileFrame> */} 
-      </div>
-    
-    </React.Fragment>
-    
+    <Switch>
+      <Route path="/main" exact component={InsideThePhone}></Route>
+      <Route path="/" exact component={MobileFrame}></Route>
+    </Switch>
   );
 }
 

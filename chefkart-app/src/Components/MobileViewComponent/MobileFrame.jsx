@@ -3,12 +3,13 @@ class MobileFrame extends Component {
   render() {
     return (
       <React.Fragment>
-        <div class="smartphone col-3">
-          <div class="content">
+        <div className="smartphone col-3">
+          <div className="content">
             <iframe
-              src="http://localhost:3000/"
+              title="mobileFrame"
+              src="/main"
               style={{ width: "100%", border: "none", height: "100%" }}
-            />
+            ></iframe>
           </div>
         </div>
       </React.Fragment>

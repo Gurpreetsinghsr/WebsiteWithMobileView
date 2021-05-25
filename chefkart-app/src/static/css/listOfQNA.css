@@ -1,0 +1,15 @@
+.listOfQues {
+  padding-top: 30px;
+  list-style-type: none;
+}
+.ques {
+  font-size: 11px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+}
+.ans {
+  font-size: 11px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: darkgrey;
+}

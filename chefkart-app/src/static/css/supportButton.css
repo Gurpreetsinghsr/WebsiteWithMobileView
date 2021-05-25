@@ -1,0 +1,15 @@
+.supportButton {
+  background-color: orange;
+  color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+}
+.supportButtonDiv {
+  position: absolute;
+  bottom: 40px;
+  right: 10px;
+  color: grey;
+  font-family: sans-serif;
+  font-size: 10px;
+}
