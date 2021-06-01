@@ -1,0 +1,43 @@
+/* The device with borders */
+.smartphone {
+  position: relative;
+  width: 340px;
+  height: 100vh;
+  min-height: 570px;
+  max-height: 640px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
+
+/* The screen (or content) of the device */
+.smartphone .content {
+  width: 100%;
+  height: 100%;
+  background: rgb(246, 246, 248);
+}
+.container-fluid {
+  height: 100%;
+}
+footer {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+  background: white;
+  flex-grow: 0;
+  text-align: center;
+}
+@media only screen and (max-width: 360px) {
+  .smartphone {
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 550px) {
+    .smartphone {
+      height: 70%;
+    }
+  }
+}

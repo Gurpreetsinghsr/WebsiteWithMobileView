@@ -1,0 +1,14 @@
+small {
+  color: grey;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: x-small;
+}
+.navbar-brand {
+  flex: auto;
+  margin-left: 15px;
+}
+.bell {
+  height: 20px;
+  width: 20px;
+}
